@@ -5,10 +5,13 @@
 
 * body {
   font-family: "Righteous", cursive;
+  color: white;
 }
 
 body {
+  background-image: url("/img/background.jpg");
   display: flex;
+  justify-content: center;
   flex-direction: column;
 }
 /* ul reset */
@@ -27,7 +30,8 @@ li {
   display: inline-block;
 }
 
-main, nav {
+main,
+nav {
   position: relative;
   width: 80%;
   marging: 2em auto;

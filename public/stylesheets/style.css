@@ -1,3 +1,16 @@
+*,
+* * {
+  box-sizing: border-box;
+}
+
+* body {
+  font-family: "Righteous", cursive;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
 /* ul reset */
 
 ul {
@@ -8,9 +21,23 @@ ul {
   margin-inline-start: 0;
   margin-inline-end: 0;
   padding-inline-start: 0;
-
 }
 
 li {
-    display: inline-block;
+  display: inline-block;
+}
+
+main, nav {
+  position: relative;
+  width: 80%;
+  marging: 2em auto;
+}
+
+.img-card img {
+  transform: scale(0.5);
+  transition: all 0.5s ease-in-out;
+}
+
+.img-card:hover img {
+  transform: scale(1);
 }
